@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página 3</title>
+  <style>
+    div {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .btn {
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      background-color: #5995DA;
+      text-transform: uppercase;
+      display: block;
+      font-weight: bold;
+      border-radius: 5px;
+      width: 200px;
+      border: 2px solid #5D6063;
+    }
+
+    .btn:hover,
+    .btn:visited:hover {
+      color: #FFF;
+      background-color: #76AEED;
+    }
+
+    label {
+      font-size: 1rem;
+      padding-right: 10px;
+    }
+
+    select {
+      font-size: .9rem;
+      padding: 2px 5px;
+    }
+
+    .flex {
+      display: flex;
+      flex-direction: row;
+    }
+
+    label {
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div>
+      <label for="filmes-select">Escolha o melhor filme da DC na sua opinião?</label>
+      <select name="filmes" id="filmes">
+        <option value="" class="escolha">------------------Escolha o filme------------------</option>
+        <option value="batman Ressurge" class="escolha">Batman: O Cavaleiro das Trevas Ressurge</option>
+        <option value="Batman" class="escolha">Batman: O Cavaleiro das Trevas</option>
+        <option value="Batman vs Superman" class="escolha">Batman vs Superman: A Origem da Justiça</option>
+        <option value="Mulher Maravilha" class="escolha">Mulher-Maravilha</option>
+        <option value="Esquadrao Suicida" class="escolha"> Esquadrão Suicida</option>
+        <option value="Snyder Cut" class="escolha">Snyder Cut - Liga da Justiça</option>
+      </select>
+    </div>
+    <div class="flex">
+
+      <a href="pag2.html" class="btn">Retornar</a>
+      <a href="pag4.html" class="btn">Próxima página</a>
+    </div>
+
+  </div>
+  <script src="pesquisa.js"></script>
+</body>
+
+</html>
